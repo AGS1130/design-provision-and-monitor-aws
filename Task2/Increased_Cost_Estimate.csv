@@ -1,0 +1,22 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Increased_Cost_Estimate,US East (N. Virginia),Public Instance,Amazon EC2,0,509.89,6118.68,USD,"Operating system (Linux), Quantity (8), Pricing strategy (On-Demand Instances  ), Storage amount (30 GB), Instance type (t3.large)"
+Increased_Cost_Estimate,US East (N. Virginia),Private Instance,Amazon EC2,0,520.4,6244.80,USD,"Operating system (Linux), Quantity (8), Pricing strategy (On-Demand Instances  ), Storage amount (30 GB), Instance type (c5.large)"
+Increased_Cost_Estimate,US East (N. Virginia),RDS - Master & Replica,Amazon RDS for MySQL,0,2361.28,28335.36,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1 TB), Quantity (4), Instance type (db.m1.large), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (800 GB)"
+Increased_Cost_Estimate,US East (N. Virginia),Route 53,Amazon Route 53,0,1394.25,16731.00,USD,"Hosted Zones (1), Basic Checks Within AWS (100), Number of Elastic Network Interfaces (15)"
+Increased_Cost_Estimate,US East (N. Virginia),Standard Storage - S3,S3 Standard,0,23.55,282.60,USD,S3 Standard storage (1 TB per month)
+Increased_Cost_Estimate,US East (N. Virginia),NAT Gateway,Amazon Virtual Private Cloud (VPC),0,157.86,1894.32,USD,Number of NAT Gateways (2)
+Increased_Cost_Estimate,US East (N. Virginia),Application Load Balancer,Application Load Balancer,0,14081.7,168980.40,USD,Number of Application Load Balancers (4)
+Increased_Cost_Estimate,US East (N. Virginia),Monitoring,Amazon CloudWatch,0,750,9000.00,USD,Number of Metrics (includes detailed and custom metrics) (2500)
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
+
+Total,,,,,19798.93,237587.16,USD
+
+,,Increased NAT Gateway from 1 to 2,,,,
+,,Added Amazon CloudWatch for monitoring,,,,
+,,Increased number of RDS Instance Quantities from 2 to 4,,,,
+,,Increased number of Elastic Load Balancers from 2 to 4,,,,
+,,Increased number of Elastic Network Interfaces from 10 to 15,,,,
+,,Increased number of Amazon EC2 instances (Public Instance) from 6 to 8,,,,
+,,Increased number of Amazon EC2 instances (Private Instance) from 6 to 8,,,,

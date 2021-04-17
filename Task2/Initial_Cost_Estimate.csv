@@ -1,0 +1,13 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Initial_Cost_Estimate,US East (N. Virginia),Public Instance,Amazon EC2,0,246.64,2959.68,USD,"Operating system (Linux), Quantity (6), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (t3.large)"
+Initial_Cost_Estimate,US East (N. Virginia),Private Instance,Amazon EC2,0,254.52,3054.24,USD,"Operating system (Linux), Quantity (6), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (c5.large)"
+Initial_Cost_Estimate,US East (N. Virginia),RDS - Master & Replica,Amazon RDS for MySQL,0,1239.92,14879.04,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1 TB), Quantity (2), Instance type (db.m1.large), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (1 TB)"
+Initial_Cost_Estimate,US East (N. Virginia),Route 53,Amazon Route 53,0,938,11256.00,USD,"Hosted Zones (1), Basic Checks Within AWS (100), Number of Elastic Network Interfaces (10)"
+Initial_Cost_Estimate,US East (N. Virginia),Standard Storage - S3,S3 Standard,0,23.55,282.60,USD,S3 Standard storage (1 TB per month)
+Initial_Cost_Estimate,US East (N. Virginia),NAT Gateway,Amazon Virtual Private Cloud (VPC),0,78.93,947.16,USD,Number of NAT Gateways (1)
+Initial_Cost_Estimate,US East (N. Virginia),Application Load Balancer,Application Load Balancer,0,7040.85,84490.20,USD,Number of Application Load Balancers (2)
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
+
+Total,,,,,9822.41,117868.92,USD
