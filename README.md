@@ -10,3 +10,9 @@ The goal of this project is to cement knowledge in planning, designing, provisio
 
 - `Exercise_1`: This directory contains the Terraform code to provision AWS as the cloud provider.
 - `Exercise_2`: This directory contains the code to deploy an AWS Lambda Function using Terraform.
+- `Task1`: This directory contains the System Design for a Manually Configured Architecture and Serverless Architecture.
+- `Task2`: This directory contains calculated estimates for AWS Services provided by AWS Pricing Calculator.
+- `Task3`: This directory contains a CloudTrailLog and proof of authentication changes for the AWS Console.
+- `Task4`: This directory contains proof of a configured AWS Cloudwatch Alarm.
+- `Task5`: This directory contains Exercise_1 items related to Terraform.
+- `Task6`: This directory contains Exercise_2 items related to Terraform.
